@@ -36,8 +36,8 @@ pip install pybind11>=2.6 numpy setuptools wheel
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/ziqiwww/wowlib.git
-    cd wowlib/python
+    git clone https://github.com/nju-websoft/WoW.git
+    cd WoW/python
     ```
 2.  **Install the package:**
     ```bash
