@@ -1,4 +1,4 @@
-# [SIGMOD '26] WoW: A Window-to-Window Incremental Index for Range-Filtering Approximate Nearest Neighbor Search
+# WoW: A Window-to-Window Incremental Index for Range-Filtering Approximate Nearest Neighbor Search, SIGMOD 2026 (Round 2)
 
 > This is the header-only library of WoW, for the benchmarking repository, please check [here](https://github.com/ziqiwww/wow_benchmark).
 
