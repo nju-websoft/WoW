@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "pybind11>=2.6", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pywowlib"
+version = "0.0.1"
+description = "Python bindings for WoWIndex with specific POD attribute types"
+readme = "README.md"
+license = "MIT"
+authors = [
+    {name = "Ziqi Wang", email = "ziqiw.nju@gmail.com"},
+    {name = "Jingzhe Zhang", email = "jzzhang.nju@gmail.com"},
+    {name = "Wei Hu", email = "whu@nju.edu.cn"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: C++",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "pybind11>=2.6",
+    "numpy",
+]
+
+[project.urls]
+Homepage = "https://github.com/ziqiwww/wowlib"
+Repository = "https://github.com/ziqiwww/wowlib.git"
+
+[tool.setuptools]
+packages = ["pywowlib"]
+
+[tool.setuptools.package-dir]
+pywowlib = "pywowlib"
